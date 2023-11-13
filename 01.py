@@ -187,6 +187,8 @@ class Grapth(QMainWindow):
                 self.PlotWidget.plot([i for i in range(int(self.lineEdit.text()), int(self.lineEdit_2.text()) + 1)],
                                      coords_y, pen='b')
 
+def f1():
+    pass
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
